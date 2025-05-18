@@ -1,0 +1,196 @@
+:root
+{
+    --button-text: #2196f3;
+    --header-fotter: #2f303a;
+    --ourteam: #f5f4fa;
+    --portfolio: #EEEEEE;
+    --h1text: #FFFFFF;
+    --add-information: #757575;
+    --standart-text: #212121;
+    --line: #ECECEC;
+    --logoblack: #000;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: Roboto;
+}
+.logo-web{
+    color: var(--button-text);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.logo-studio{
+    color: var(--logoblack);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.nav-page{
+    color: var(--standart-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nav-page:hover{
+    color: var(--button-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.div-contact{
+    color: var(--add-information);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.div-contact:hover{
+    color: var(--button-text);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.deicsion{
+    background-color: var(--header-fotter);
+    
+}
+.decision-text{
+    color: var(--h1text);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36364;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+.decision-button{
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--h1text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.96px;
+}
+
+.prefer-title{
+    color: var(--standart-text);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.prefer-text{
+    color: var(--add-information);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71429;
+    letter-spacing: 0.42px;
+}
+.work-title,.team-title{
+    color: var(--standart-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+.team-name{
+    color: var(--standart-text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;    
+    letter-spacing: 0.48px; 
+}
+.team-work{
+    color: var(--add-information);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+footer{
+    background-color: var(--header-fotter);
+}
+
+.footer-contact{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71429;
+    letter-spacing: 0.42px;
+}
+.logo-studio-footer{
+    color: var(--h1text);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.footer-location{
+    color: var(--h1text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71429; 
+    letter-spacing: 0.42px;
+}
+.portfolio-button{
+    border-radius: 4px;
+    background: var(--ourteam); 
+    color: var(--standart-text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625; /* 162.5% */
+    letter-spacing: 0.48px;   
+}
+.portfolio-button:hover{
+    border-radius: 4px;
+    background: var(--button-text);
+    color: var(--h1text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625; /* % */
+    letter-spacing: 0.48px;
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);  
+}
+.portfolio-title{
+    color: var(--standart-text);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2; /* 200% */
+    letter-spacing: 1.08px;
+}
+.portfolio-text{
+    color: var(--add-information);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875; /* 187.5% */
+    letter-spacing: 0.48px;
+}
